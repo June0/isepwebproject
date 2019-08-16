@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+/*login*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 2000px;
+	padding-top: 70px;
+}
+
+select {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.loginpage {
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 30%;
+	text-align: right;
+	width: 10%;
+}
+
+.login {
+	background-color: #FFF3F3;
+	border-radius: 5px;
+	width: 160px;
+	margin-left: 2%;
+	border-color: #FFF3F3;
+}
+
+.login:focus {
+	background-color: white;
+}
+
+fieldset {
+	border-style: solid;
+	border-color: LightCoral;
+	border-width: 10px;
+	margin-top: 10px;
+	width: 800px;
+	position:
+}
+
+#mdp {
+	margin-left: 50%;
+	width: 20%;
+}
+
+#login {
+	background-color: #FFF3F3;
+	margin-left: 50%;
+	width: 10%;
+}
+
+/*footer*/
+#footer {
+	position: absolute;
+	bottom: 5px;
+	/*text-align:center;*/
+}
+
+#footer p {
+	width: 100%;
+	font-style: oblique;
+}
+
+#footer ul li {
+	display: inline-block;
+	float: left
+}
+
+#footer ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 2em 6em 5em 8em;
+	margin-left: 40%;
+	width: 100%;
+}
+
+/*student_home*/
+#welcomestudent {
+	width: 70%;
+	padding: 1%;
+	box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
+	border: 1px solid;
+}
+
+#school {
+	
+}
+
+#studentstatus {
+	
+}
+
+/*research*/
+#selection {
+	width: 100%;
+}
+
+th {
+	width: 20%;
+}
+
+select {
+	width: 100%;
+}
